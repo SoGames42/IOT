@@ -9,8 +9,8 @@ wlan.active(True)
 
 userId = 33
 
-ssid = 'iPhone de sofia'
-password = 'Kyara1404'
+ssid = 'user'
+password = 'mdp'
 wlan.connect(ssid, password)
 url = "http://172.20.10.7:3000/users/" + str(userId) + "/house"
 

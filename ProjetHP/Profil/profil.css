@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "hp";
+  src: url(../font/HARRYP__.TTF);
+}
+body {
+  background: url(../image/Hogwarts-Legacy-l-heritage-de-Poudlard-1571987.jpg)
+    no-repeat fixed center center / cover;
+  font-family: hp;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 90vh;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: black;
+  height: 15vh;
+}
+
+footer > div > h2 {
+  color: white;
+  margin: 0;
+}
+
+a {
+  color: initial;
+  text-decoration: none;
+}
+
+.SubDiv {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Id {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.Bandeau {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: black;
+  margin: 3vh 0;
+  height: 8vh;
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.profil {
+  font-size: 4vh;
+}
+
+.Img {
+  display: flex;
+  height: 50%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Img > a,
+#Icon-droite > a {
+  height: 90%;
+}
+
+a > img {
+  height: 100%;
+}
+
+#Icon-droite {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 65%;
+  width: 10vw;
+  margin-right: 2vw;
+}
+
+#FooterBas {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 3vw;
+}
